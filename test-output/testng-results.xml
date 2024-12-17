@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T11:00:18 IST" name="Suite" finished-at="2024-11-06T11:00:22 IST" duration-ms="4089">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-06T11:00:18 IST" name="Test" finished-at="2024-11-06T11:00:22 IST" duration-ms="4089">
+      <class name="com.api.restassured.employee.testRunner.TestRunnerTestNg">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:18 IST" name="setUpClass" finished-at="2024-11-06T11:00:18 IST" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@492c8137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T11:00:20 IST" duration-ms="1922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Post User request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to validate the post request"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T11:00:20 IST" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Delete employee request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is delete the existing employee."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T11:00:22 IST" duration-ms="1419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the GET - List Of Employees Request with reponse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purpose of this feature is to test GET request for employees and validate Response body"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T11:00:22 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Put employee request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to update existing employee data by PUT request"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.api.restassured.employee.testRunner.TestRunnerTestNg@5386659f]" started-at="2024-11-06T11:00:22 IST" name="tearDownClass" finished-at="2024-11-06T11:00:22 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.api.restassured.employee.testRunner.TestRunnerTestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
